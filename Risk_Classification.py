@@ -80,5 +80,3 @@ if uploaded_file:
         st.error(f" Failed to process file: {e}")
 else:
     st.info("Upload a labeled dataset to get started.")
-
-
