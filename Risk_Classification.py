@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import google.generativeai as genai
 from sklearn.metrics import precision_score, recall_score, f1_score
-genai.configure(api_key="AIzaSyBv5NtUU65WZl-Is6QPrfkjMtwZBGSYiY0")
+genai.configure(api_key="AIzaSyDeuEA5v4nfoDz93JGswyNMry3-hzqAdxc")
 model = genai.GenerativeModel('gemini-2.0-flash')
 st.set_page_config(page_title="LLM Risk Classifier")
 st.title("LLM-based Risk Event Classifier")
